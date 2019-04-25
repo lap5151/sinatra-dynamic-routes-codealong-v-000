@@ -25,8 +25,6 @@ class App < Sinatra::Base
       @numbers < x.to_i
     end
     @numbers
-
-    end
   end
 
 end
