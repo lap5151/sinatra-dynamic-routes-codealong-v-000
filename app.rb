@@ -23,5 +23,6 @@ class App < Sinatra::Base
     :num3 = :num1 * :num2
     #params[:num1].to_i * params[:num2].to_i
   end
+  end
 
 end
