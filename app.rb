@@ -21,7 +21,7 @@ class App < Sinatra::Base
 
   get "/multiply/:num1/:num2" do
     params.map do {|key, value| params[key] = value.to_i}
-    params[:num1]*params[:num2]
+    params[:num1]
   end
 
 end
