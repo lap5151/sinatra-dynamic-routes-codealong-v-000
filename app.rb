@@ -24,8 +24,8 @@ class App < Sinatra::Base
     params[x].map do
       @numbers < x.to_i
     end
-    @numbers    
-    
+    @numbers
+
     end
   end
 
